@@ -1,0 +1,34 @@
+<%-- 
+    Document   : index
+    Created on : 01/11/2014, 10:05:52 AM
+    Author     : seront
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Organizador de películas</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <%@include file="jslt.jsp" %>
+        <%@include file="estilo.jsp" %>
+<!--        <script>
+	  $(document).ready( function() {
+	    $(".label_better").label_better({
+	      easing: "bounce"
+	    });
+	  });
+	</script>-->
+    </head>
+    <body>
+        <header>
+            <!--<img src="img/peliculaweb.png" alt="Pelicula Web"/>-->
+            <%@include file="encabezado.jsp" %>        
+        </header>
+        <div id="pagina">
+            <h1>Pagina principal</h1>
+            <p>Este es el primer parrafo de todos O.O un super parrafo XD</p>
+        </div>
+            <footer><%@include file="pie.jsp"%> </footer>
+    </body>
+</html>
